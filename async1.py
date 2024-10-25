@@ -1,32 +1,7 @@
-#asyncio
-#async
-#await
-
-# from time import perf_counter, sleep
-# import asyncio
-# async def task1():
-#     await asyncio.sleep(1)
-#     print('функция 1 работает исправно')
-#
-# async def task2():
-#     await asyncio.sleep(2)
-#     print('функци 2 работант исправно')
-#
-# async def main():
-#     start = perf_counter()
-#      t1 = task1()
-#     t2 = task2()
-#     await asyncio.gather(t1, t2)
-#     finish = perf_counter()
-#     print(finish-start)
-#
-# asyncio.run(main())
-
-
 from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 import asyncio
 
 api = '7302950034:AAFWffsqRBTIK_rYt8z61htFdpmY2Txnq4s'
